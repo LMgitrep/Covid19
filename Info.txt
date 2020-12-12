@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Covid-19 Info</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Elephant;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color when cursor is on top */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }  
+  
+footer {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-color: #333333;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<img src="covid19_lg.jpg" alt="HTML5 Icon" width="100%" height="200">
+
+<div class="header">
+  <h1>World Wide Covid-19 Information</h1>
+  <p>Your daily news updates</p>
+</div>
+
+<div class="topnav">
+  <a href="Home.html">Home</a>
+  <a href="US.html">United States Data</a>
+  <a href="States_Data.html">States Data</a>
+  <a href="Info.html">Info</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>General Covid-19 Info</h2>
+    </div> 
+  
+  
+<div class="row">
+  <div class="column">
+    <h2>Children & Covid-19 Test </h2>
+    <p>Need help preparing your children for the Covid-19 test?... Continue reading to learn more.</p>
+	<a href="https://www.nationwidechildrens.org/family-resources-education/700childrens/2020/10/preparing-kids-for-covid-19-swabs" >
+	<img src="ChildrenCovid19.jpg"  alt="HTML5 Icon" width="55%" height="25%">
+	</a>
+  </div>
+  
+  <div class="column">
+    <h2>Preventive Stepts</h2>
+	<p>Follow these few simple steps to help prevent the spread of Covid-19... Continue reading to learn more.</p>
+	<a href="https://www.genesishcs.org/news-publications/newsroom/6-tips-to-protect-yourself-against-infections-infographic/" >
+	<img src="preventive.jpg"  alt="HTML5 Icon" width="60%" height="60%">
+	</a>
+  </div>
+  
+  <div class="column">
+    <h2>Holiday Travels 2020</h2>
+    <p>Tips for traveling safely this holiday season... Continue reading to learn more.<br></p><br>
+	<a href="https://www.debeaumont.org/news/2020/new-infographic-offers-tips-for-a-safe-thanksgiving/" >
+	<img src="Thanksgiving.png" alt="HTML5 Icon" width="60%" height="60%">
+	</a>
+  </div>
+</div>
+
+
+    <div class="card">
+      <h2>Latest News</h2>
+	  
+	  <img src="CovidUpdates.jpg" alt="HTML5 Icon" width="10%" height="10%">
+      <a href="https://www.washingtonpost.com/lifestyle/style/santa-covid-christmas/2020/12/08/2d6a4e68-25e5-11eb-a688-5298ad5d580a_story.html"
+	  <p><br>Washington Post: Santa Claus is coming to town. Try not to infect him.</p></a> 
+
+	  <img src="CovidUpdates.jpg" alt="HTML5 Icon" width="10%" height="10%">
+	  <a href="https://www.cbsnews.com/news/covid-19-us-marshals-protect-drug-transportation/" 
+      <p><br>CBS News: U.S. Marshals will protect COVID-19 vaccine during rollout</p></a>
+  </div>
+  </div>
+  
+<footer>
+    <p class="copyright">Created by: Laura Murray 2020</p>
+</footer>
+
+
+</body>
+</html>
